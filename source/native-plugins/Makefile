@@ -35,6 +35,7 @@ OBJS = \
 	$(OBJDIR)/cv-to-audio.c.o \
 	$(OBJDIR)/lfo.c.o \
 	$(OBJDIR)/midi-channel-filter.c.o \
+	$(OBJDIR)/midi-port-switch.c.o \
 	$(OBJDIR)/midi-channel-ab.c.o \
 	$(OBJDIR)/midi-channelize.c.o \
 	$(OBJDIR)/midi-gain.c.o \
@@ -58,6 +59,7 @@ OBJS_files = \
 
 OBJS_miditools = \
 	$(OBJDIR)/midi-channel-filter.c.o \
+	$(OBJDIR)/midi-port-switch.c.o \
 	$(OBJDIR)/midi-channel-ab.c.o \
 	$(OBJDIR)/midi-channelize.c.o \
 	$(OBJDIR)/midi-gain.c.o \

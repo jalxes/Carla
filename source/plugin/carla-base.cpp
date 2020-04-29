@@ -52,6 +52,7 @@ struct PluginListManager {
                 std::strcmp(desc->label, "lfo"             ) == 0 ||
                 std::strcmp(desc->label, "midichanab"      ) == 0 ||
                 std::strcmp(desc->label, "midichanfilter"  ) == 0 ||
+                std::strcmp(desc->label, "midiportswitch"  ) == 0 ||
                 std::strcmp(desc->label, "midichannelize"  ) == 0 ||
                 std::strcmp(desc->label, "midifile"        ) == 0 ||
                 std::strcmp(desc->label, "midigain"        ) == 0 ||
